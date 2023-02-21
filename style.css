@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+    
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(44, 42, 42);
+    height: 100px;
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(204, 194, 194);
+}
+
+.logo {
+    flex: 20%;
+    color: rgb(2, 153, 103);
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    margin-left: 10%;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px whitesmoke;
+    
+}
+
+.menu{
+    flex:70%;
+    text-align: right;
+    padding: 20px;
+
+}
+    
+.menu a { 
+    color: azure;
+    text-decoration: none;
+    margin: 5%;
+}  
+.menu a:hover{
+    color: rgb(2, 153, 103);
+    border: 1px solid rgb(2, 153, 103);
+    border-radius: 10px;
+    padding: 5px;
+}
+    
+
+
+#fale {
+    background-color: rgb(2, 153, 103);
+    color:white;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(2, 153, 103);
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+#fale:hover{
+    background-color: brown;
+    border: none;
+}
+
+.header{
+
+    background-color: rgb(44, 42, 42);
+    height: 600px;
+    display: flex;
+    flex: row wrap;
+    justify-content:center;
+    align-items: center;
+   
+
+}
+
+.imgheader {
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgheader img{
+
+    max-width: 100%;
+    height: auto;
+    margin-left: 15%;
+    border:  1px solid rgb(16, 60, 16);
+}
+
+.texto {
+
+    color: white;
+    margin-left: 15px;
+    flex: 35%;
+}
+#espaçom {
+    margin-left: 15%;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 2px green
+}
+
+#pi {
+    border: solid snow 1px;
+    padding: 10px;
+    border-radius: 15px;
+}
